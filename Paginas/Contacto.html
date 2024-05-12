@@ -24,11 +24,21 @@
       <section class="form-envio">
         <form>
         <h3>Formulario de registro</h3>
-        <input class="controls" type="text" name="Nombres" id="Nombres" placeholder="Ingrese su nombre">
-        <input class="controls" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido">
-        <input class="controls" type="number" name="Telefono" id="Telefono" placeholder="Ingrese su Telefono">
-        <input class="controls" type="email" name="Correo" id="Correo" placeholder="Ingrese su Correo">
-        <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+        <label>Nombre completo
+        <input class="controls" type="text" name="Nombres" id="Nombres" placeholder="Pepe Juan" >
+      </label>
+      <label>Apellido
+        <input class="controls" type="text" name="Apellido" id="Apellido" placeholder="Gonzales" >
+      <label>Telefono de contacto
+        <input class="controls" type="number" name="Telefono" id="Telefono" placeholder="15-2222-3333" >
+      </label>
+      <label>Email
+        <input class="controls" type="email" name="Correo" id="Correo" placeholder="ejemplo@mymail.com" required="" aria-invalid="true" >
+      </label>
+      <label>
+        <p>Estoy de acuerdo con Terminos y condiciones <input type="checkbox" class="checkbox"></p>
+        
+      </label>
         <input class="botons" type="submit" value="Enviar">
         <p><a href="#">Ya tengo cuenta</a></p>
       </form>
