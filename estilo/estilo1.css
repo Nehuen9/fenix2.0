@@ -42,14 +42,13 @@ header{
   border-radius: 5px;
   margin: 5px;
   padding: 5px;
-  font-size: 15px;
+  font-size: 22px;
   text-decoration: none;
-  left: 0;
-  margin-inline: 20;
   
 }
 .navegacion:hover {
   background-color: orange;
+  text-decoration: underline;
 }
 
 
