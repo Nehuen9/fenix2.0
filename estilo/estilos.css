@@ -72,10 +72,10 @@ h2 {
 h3{
   text-align: center;
 }
-#a1 {
+#home {
 
   text-align: center;
-  border-width: 50%;
+  border-width: 50px;
   border-color: black;
   padding: 5%;
   height: auto;
@@ -89,16 +89,85 @@ h3{
   width: 30%;
 }
 
+section {
+  display: flex;
+  /* Primera alineación */
+  justify-content: space-around;
+  /* Alineación secundaria */
+  /* align-items: center; */
+  align-items: stretch;
+}
 
 article {
-  border: 2px black solid;
-  border-radius: 5px;
-  grid-template-columns: 10%;
-  text-align: justify;
-  padding: 2%;
-  margin: 2%;
- }
+  width: 40%;
+  padding: 5%;
+  border: 2px solid black;
 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  section {
+      display: block;
+  }
+
+  article {
+      width: 100%;
+  }
+
+  body {
+      font-size: small;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+  section {
+      display: block;
+  }
+  
+  article {
+      width: 100%;
+  }
+
+  .logoFijo{
+    margin: 1%;
+    width: 5rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 2%;
+    z-index: 20;
+  }
+  
+  body {
+      font-size: medium;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  section {
+      display: flex;
+  }
+  
+  article {
+      width: 50%;
+  }
+
+  .logoFijo{
+    margin: 1%;
+    width: 5rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 2%;
+    z-index: 20;
+  }
+  
+  .enLinea {
+      display: flex;
+  }
+}
 
 picture {
   display: flex;
@@ -129,15 +198,6 @@ img:hover{
   border-radius: 10px;
 }
 
-section {
-
-  display: block;
-  grid-template-columns: 50% 50%;
-  text-align: center;
-}
-
-
-
 
 
 /* Logo Fijo */
@@ -149,8 +209,6 @@ section {
   right: 2%;
   z-index: 20;
 }
-
-
 
 
 
