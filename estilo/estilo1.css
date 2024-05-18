@@ -115,7 +115,8 @@ img:hover{
 section {
 
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 42% 42%;
+  justify-content: space-around;
 }
 
 form-envio .controls{
