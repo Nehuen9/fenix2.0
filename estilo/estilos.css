@@ -225,3 +225,14 @@ footer {
   padding: 20px;
 
 }
+
+.redes-logos{
+  width: 10x;
+
+}
+.redes-logos a {
+  margin:2%;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
