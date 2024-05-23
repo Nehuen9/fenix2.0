@@ -53,6 +53,9 @@ form.addEventListener("submit", e=>{
     }else{
         
         adv.innerHTML = "Enviado";
+
+        
+
         nombre.value = "";
         apellido.value = "";
         telefono.value = "";
