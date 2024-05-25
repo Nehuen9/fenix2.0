@@ -225,3 +225,12 @@ footer {
   padding: 20px;
 
 }
+
+/*apariencia de la advertencia*/
+.advertencia{
+width: 200px;
+text-align: center;
+margin: auto;
+color: #b06ab3;
+padding-top: 20px;
+}
