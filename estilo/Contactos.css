@@ -33,6 +33,13 @@ header{
   background-size: 20px 20px;
   padding: 2%;
 }
+h2 {
+  color: rgb(255, 102, 0);
+  font-size: 50px;
+  background-color: black;
+  width: fit-content;
+  margin: auto;
+}
 
 .navegacion{
   background-color: gray;
@@ -49,8 +56,6 @@ header{
 .navegacion:hover {
   background-color: orange;
 }
-
-
 
 
 
