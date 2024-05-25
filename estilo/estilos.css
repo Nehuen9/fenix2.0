@@ -60,6 +60,7 @@ header{
   padding: 1%;
   text-decoration: none;
   display: inline;
+  transition: 0.5s;
   
 }
 .navegacion:hover {
@@ -74,12 +75,19 @@ header{
   padding: 5px;
   text-decoration: none;
   margin-bottom: 10px;
+  transition: 0.5s;
 
 }
 
 .navegacion1:hover{
   background-color: orange;
 }
+
+.imgArt1:hover {
+  transform: translateY(-10px);
+  transition: 0.8s;
+}
+
 
 
 /* Body y cuerpo , articulos e imagenes*/
@@ -224,7 +232,7 @@ img:hover{
 }
 
 .imgArt1{
-  border: 2px green solid;
+/*  border: 2px green solid;*/
   border-radius: 10px;
 }
 
@@ -260,6 +268,41 @@ footer {
   padding: 20px;
 
 }
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.icon-elem {
+  list-style: none;
+}
+
+.icon {
+  color: rgb(136, 132, 5);
+  text-align: center;
+  font-size: 150%;
+  display: inline-block;
+  margin: 0 20px;
+  transition: 0.5s;
+}
+.volver-inicio {
+  color: rgb(136, 132, 5);
+  text-align: center;
+  font-size: 100%;
+  margin: 0 20px;
+  transition: 0.5s;
+}
+
+.icon:hover, .volver-inicio:hover {
+  transform: translateY(-10px);
+  opacity: 1;
+}
+
 
 /*apariencia de la advertencia*/
 .advertencia{
