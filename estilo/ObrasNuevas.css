@@ -102,14 +102,12 @@
   #im {
     width: 100%;
     padding: 3%; 
-    transition: 0.5s;
+
   }
   
   .im:hover, .Datos {
     transform: translateY(-10px);
     transition: 0.8s;
-
-
   }
 
 
