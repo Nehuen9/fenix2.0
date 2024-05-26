@@ -217,6 +217,7 @@ footer {
 .icon:hover, .volver-inicio:hover {
   transform: translateY(-10px);
   opacity: 1;
+  color: rgb(4, 90, 175);
 }
 
 label{
