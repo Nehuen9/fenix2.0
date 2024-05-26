@@ -47,7 +47,12 @@ form.addEventListener("submit", e=>{
         alert +=`El eMail no es Valido <br>`
         flag = true
     }
-    
+
+    if(!ter1.checked){
+        alert +=`Debe aceptar los terminos y condiciones <br>`
+        flag = true
+
+    }    
     if(flag){
         adv.innerHTML = alert
     }else{
@@ -60,7 +65,7 @@ form.addEventListener("submit", e=>{
         apellido.value = "";
         telefono.value = "";
         correo.value = "";
-    }
+        ter1.checked = false;   }
 
    
         
