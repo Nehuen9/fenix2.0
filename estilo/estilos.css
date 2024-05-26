@@ -150,8 +150,13 @@ article {
       display: block;
   }
 
+  .navegacion1 {
+    background-color: aquamarine ;
+  }
+
   article {
       width: 100%;
+      border: 2px solid black;
   }
 
   body {
@@ -162,11 +167,16 @@ article {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) {
   section {
-      display: block;
+      display: flex;
   }
   
   article {
       width: 100%;
+  }
+
+  .navegacion1 {
+    background-color: rgb(0, 255, 85) ;
+
   }
 
   .logoFijo{
@@ -184,14 +194,19 @@ article {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 800px) {
 
   section {
       display: flex;
   }
+
+  .navegacion1 {
+    background-color: aquamarine ;
+  }
   
   article {
       width: 50%;
+      border: none;
   }
 
   .logoFijo{
