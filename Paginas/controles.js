@@ -54,11 +54,14 @@ form.addEventListener("submit", e=>{
 
     }    
     if(flag){
-        adv.innerHTML = alert
+        
+        adv.innerHTML = alert;
+        adv.style.color = "grey";
+        
     }else{
         
         adv.innerHTML = "Enviado";
-
+        adv.style.color = "grey";
         
 
         nombre.value = "";
