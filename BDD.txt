@@ -1,0 +1,20 @@
+CREATE TABLE `fenixdb`.`usuarios` (
+  `idUsuario` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(150) NULL,
+  `apellido` VARCHAR(150) NULL,
+  `telefono` VARCHAR(45) NULL,
+  `mail` VARCHAR(90) NULL,
+  PRIMARY KEY (`idUsuario`));
+
+
+INSERT INTO `fenixdb`.`usuarios` (`nombre`, `apellido`, `telefono`, `mail`) VALUES ('Silvio', 'Vallejos', '2964455633', 'Silvio.vallejos@gmail.com');
+INSERT INTO `fenixdb`.`usuarios` (`nombre`, `apellido`, `telefono`, `mail`) VALUES ('Diego Nehuen', 'Videla', '625785769', 'nehuenvd@gmail.com');
+INSERT INTO `fenixdb`.`usuarios` (`nombre`, `telefono`, `mail`) VALUES ('Rodrigo', '11223344', 'Rodri@gmail.com');
+
+
+CREATE TABLE `fenixdb`.`usuariosvip` (
+  `idusuariosVip` INT NOT NULL AUTO_INCREMENT,
+  `tipoAcceso` INT NULL,
+  `estado` TINYINT NULL,
+  `idUsuario` INT NULL,
+  PRIMARY KEY (`idusuariosVip`));

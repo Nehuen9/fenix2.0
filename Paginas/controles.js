@@ -23,7 +23,7 @@ form.addEventListener("submit", e=>{
     if(nombre.value.length <3){
         alert +=`El nombre no es Valido <br>`
         flag = true
-           
+
     }
 
     if(apellido.value.length <2){
@@ -31,14 +31,14 @@ form.addEventListener("submit", e=>{
         flag = true
     }
 
-  
+
     
     let controlNum = /[0-9]/
     
-      if (!(telefono.value.length >= 10 && telefono.value.length <= 12) && !(controlNum.test(telefono))) {
+    if (!(telefono.value.length >= 10 && telefono.value.length <= 12) && !(controlNum.test(telefono))) {
         alert +=`El Numero de Telefono no es Valido <br>`
         flag = true
-      }
+    }
         
 
 
@@ -68,12 +68,4 @@ form.addEventListener("submit", e=>{
         apellido.value = "";
         telefono.value = "";
         correo.value = "";
-        ter1.checked = false;   }
-
-   
-        
-<<<<<<< HEAD
-})
-=======
-})
->>>>>>> Nehuen
+        ter1.checked = false;   }})
